@@ -51,16 +51,14 @@ Clone the repository:
    git clone https://github.com/your-username/student-management-backend.git
    cd student-management-backend
 
-Set up a virtual environment:
-
-
+### Set up a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Install dependencies:
+### Install dependencies:
 pip install -r requirements.txt
 
-Set up the database:
+### Set up the database:
 Configure database settings in settings.py
 
 Run migrations:
@@ -69,5 +67,5 @@ python manage.py migrate
 Create a superuser for admin access:
 python manage.py createsuperuser
 
-Start the development server:
+### Start the development server:
 python manage.py runserver
